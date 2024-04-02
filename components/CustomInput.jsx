@@ -1,10 +1,10 @@
 import { Controller } from "react-hook-form";
 
 const classes =
-  "py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-black focus:ring-black disabled:opacity-50 disabled:pointer-events-none dark:bg-black dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600";
+  "py-3 px-4 block w-full border border-gray-300 rounded-lg text-sm focus:border-black focus:ring-black disabled:opacity-50 disabled:pointer-events-none dark:bg-black dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600";
 
 const pinClasses =
-  "block size-[38px] text-center border-gray-200 rounded-md text-sm placeholder:text-gray-300 focus:border-black focus:ring-black disabled:opacity-50 disabled:pointer-events-none dark:bg-black dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600";
+  "block size-[38px] text-center border border-gray-300 rounded-md text-sm placeholder:text-gray-300 focus:border-black focus:ring-black disabled:opacity-50 disabled:pointer-events-none dark:bg-black dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600";
 
 export default function CustomInput({
   name,
