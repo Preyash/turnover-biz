@@ -1,9 +1,9 @@
-import CustomNavbar from "@/components/CustomNavbar";
-import "@/styles/globals.css";
-import { isAuthenticated } from "@/utils/auth";
-import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 import { Toaster } from "react-hot-toast";
+import CustomNavbar from "@/components/CustomNavbar";
+import { isAuthenticated } from "@/utils/auth";
+import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   const authenticated = isAuthenticated();

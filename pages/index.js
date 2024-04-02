@@ -1,7 +1,6 @@
 import CustomCheckbox from "@/components/CustomCheckbox";
 import CustomPagination from "@/components/CustomPagination";
 import { getUser } from "@/utils/auth";
-import { generateData } from "@/utils/constants";
 import { useEffect, useMemo, useState } from "react";
 
 export default function Home() {

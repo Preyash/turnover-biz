@@ -2,9 +2,8 @@ import CustomButton from "@/components/CustomButton";
 import CustomInput from "@/components/CustomInput";
 import CustomLink from "@/components/CustomLink";
 import { getUser, setUser } from "@/utils/auth";
-import { fakedata } from "@/utils/constants";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 

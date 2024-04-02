@@ -1,5 +1,4 @@
 import CustomButton from "@/components/CustomButton";
-import CustomImage from "@/components/CustomImage";
 import CustomInput from "@/components/CustomInput";
 import CustomLink from "@/components/CustomLink";
 import { getUser, setUser } from "@/utils/auth";
