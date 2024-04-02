@@ -74,13 +74,6 @@ export default function SignUp() {
       <div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
         {next ? (
           <div className="p-4 sm:p-7 relative">
-            <CustomImage
-              src="/back.png"
-              width={30}
-              height={30}
-              className="cursor-pointer"
-              onClick={() => setNext(false)}
-            />
             <div className="text-center">
               <h1 className="block text-2xl font-bold text-gray-800 dark:text-white mb-3">
                 Verify your email

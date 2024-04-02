@@ -34,8 +34,6 @@ export default function CustomCheckbox({ data, currentPage }) {
     });
   };
 
-  // console.log(checkData)
-
   return (
     <div className="space-y-4 h-[224px]">
       {(checkData || []).map((i, index) => (

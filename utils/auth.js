@@ -20,6 +20,7 @@ export const fakeLogout = () => {
 
 export const isAuthenticated = () => {
   if (typeof window !== 'undefined') {
-    return !!JSON.parse(localStorage.getItem("user"))?.loggedIn;
+    const user = localStorage.getItem("user")
+    return !!JSON.parse(user)?.loggedIn;
   }
 };

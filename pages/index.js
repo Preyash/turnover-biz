@@ -20,8 +20,6 @@ export default function Home() {
     setData(user?.interests)
   }, [currentPage])
 
-  console.log(data)
-
   return (
     <main className="w-full max-w-lg mx-auto p-6">
       <div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
